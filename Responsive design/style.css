@@ -1,0 +1,100 @@
+#intro .title{
+    background-color: gray;
+    width: 690px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 25px;
+    
+}
+div{
+    margin: 25px 25px;
+    
+}
+h1{
+    font-size: 40px;
+    margin: 25px 25px;
+    position: relative;
+    left: 10px;
+    
+}
+i{
+    left: 10px;
+    top: 38px;
+    position: relative;
+
+}
+.icons .first, .second{
+    display: flex;
+    
+}
+.icons .first div{
+    display: flex;
+    background-color: gray;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    width: 250px;
+    transition: all 3s;
+}
+.icons .second div{
+    display: flex;
+    background-color: gray;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    width: 250px;
+    transition: all 3s;
+    
+}
+
+.first div:nth-child(3){
+    color: #4986ee;
+}
+.first div:nth-child(2){
+    color: #ec7322;
+}
+.first div:nth-child(1){
+    color: #0446b9;
+}
+.second div:nth-child(3){
+    color: #07afda;
+   
+}
+.second div:nth-child(2){
+    color: #14da10;
+}
+.second div:nth-child(1){
+    color: #ff0019;
+}
+/* li:nth-child(3){
+    background-color: #ff0019;
+} */
+#intro .icons .first .fb:hover{
+    background-color: white;
+}
+#intro .icons .first .inst:hover{
+    background-color: white;
+}
+#intro .icons .first .tw:hover{
+    background-color: white;
+}
+#intro .icons .second .ytb:hover{
+    background-color: black;
+}
+#intro .icons .second .wp:hover{
+    background-color: black;
+}
+#intro .icons .second .inn:hover{
+    background-color: black;
+  
+}
+
+#intro .icons .second div:hover {
+    width: 500px;
+    
+}
+#intro .icons .first div:hover {
+    width: 500px;
+
+}
+    
